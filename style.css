@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background-color: #040731;
+}
+
+#continar {
+    width: 500px;
+    height: 650px;
+    background-color: rgb(17, 3, 44);
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 2px solid blue;
+}
+
+.numata_h2 {
+    width: 100%;
+    height: 50px;
+    background-color: #1349a0;
+    color: chartreuse;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+}
+
+#input_value {
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    text-indent: 10px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-left: 40px;
+    float: left;
+    font-size: 20px;
+    color: darkgreen;
+    font-weight: bolder;
+}
+
+#input_value::placeholder {
+    font-size: 20px;
+    text-align: center;
+}
+
+#numata_show {
+    float: left;
+    margin-top: 20px;
+    margin-left: 210px;
+    background-color: black;
+    color: green;
+    font-size: 20px;
+    width: 80px;
+    height: 40px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+#input_numata_show {
+    margin-top: 80px;
+    margin-left: 140px;
+    line-height: 40px;
+    font-size: 30px;
+    text-align: justify;
+    text-indent: 10px;
+    color: orangered;
+
+
+}
+
+
+.input_numata_show {
+    font-weight: bold;
+}
+
+#soft-creator {
+    color: wheat;
+    margin-left: 5px;
+}
